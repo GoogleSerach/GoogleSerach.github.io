@@ -17,7 +17,7 @@ menu:
   AV:
     url: /AV
     icon: fa-music
-  # List: 
+  #  List: 
   # url: /List
   # icon: fa-heartbeat
   # children: 
@@ -29,9 +29,9 @@ menu:
   #     name: 视频
   #     url: /List/movies
   #     icon: fa-film
-  Galleries:
-    url: /galleries
-    icon: fa-photo
+  #Galleries:
+  #  url: /galleries
+  #  icon: fa-photo
   About:
     url: /about
     icon: fa-user-circle-o
