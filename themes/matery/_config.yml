@@ -213,7 +213,7 @@ myProjects:
 mySkills:
   enable: true
   data:
-    计算机理论:
+    计算机理论知识:
       background: 'linear-gradient(to right, #FF0066 0%, #FF00CC 100%)'
       percent: 80%
     数据结构与算法:
