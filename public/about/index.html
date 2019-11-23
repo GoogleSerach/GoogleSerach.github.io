@@ -608,13 +608,23 @@ $('.bg-cover').css('background-image', 'url(/medias/banner/' + new Date().getDay
                     <div class="post-statis col l4 hide-on-med-and-down" data-aos="zoom-in-right">
                         
 <div class="statis">
-    <span class="count"><a href="/" target="_blank">1</a></span>
+    <span class="count"><a href="/" target="_blank">2</a></span>
     <span class="name">文章</span>
 </div>
 
 
 
+<div class="statis">
+    <span class="count"><a href="/categories" target="_blank">1</a></span>
+    <span class="name">分类</span>
+</div>
 
+
+
+<div class="statis">
+    <span class="count"><a href="/tags" target="_blank">3</a></span>
+    <span class="name">标签</span>
+</div>
 
                     </div>
                     <div class="col s12 m12 l4">
@@ -627,13 +637,23 @@ $('.bg-cover').css('background-image', 'url(/medias/banner/' + new Date().getDay
                                 <div class="post-statis hide-on-large-only" data-aos="zoom-in-right">
                                     
 <div class="statis">
-    <span class="count"><a href="/" target="_blank">1</a></span>
+    <span class="count"><a href="/" target="_blank">2</a></span>
     <span class="name">文章</span>
 </div>
 
 
 
+<div class="statis">
+    <span class="count"><a href="/categories" target="_blank">1</a></span>
+    <span class="name">分类</span>
+</div>
 
+
+
+<div class="statis">
+    <span class="count"><a href="/tags" target="_blank">3</a></span>
+    <span class="name">标签</span>
+</div>
 
                                 </div>
                                 <div class="title">LQL</div>
@@ -784,7 +804,7 @@ $('.bg-cover').css('background-image', 'url(/medias/banner/' + new Date().getDay
                 name: '文章篇数',
                 type: 'line',
                 color: ['#6772e5'],
-                data: [0,0,0,0,0,0,0,0,0,0,0,0,1],
+                data: [0,0,0,0,0,0,0,0,0,0,0,0,2],
                 markPoint: {
                     symbolSize: 45,
                     color: ['#fa755a','#3ecf8e','#82d3f4'],
@@ -826,7 +846,7 @@ $('.bg-cover').css('background-image', 'url(/medias/banner/' + new Date().getDay
                 type: 'pie',
                 radius: '50%',
                 color: ['#6772e5', '#ff9e0f', '#fa755a', '#3ecf8e', '#82d3f4', '#ab47bc', '#525f7f', '#f51c47', '#26A69A'],
-                data: [],
+                data: [{"name":"随笔","value":1}],
                 itemStyle: {
                     emphasis: {
                         shadowBlur: 10,
@@ -850,7 +870,7 @@ $('.bg-cover').css('background-image', 'url(/medias/banner/' + new Date().getDay
         xAxis: [
             {
                 type: 'category',
-                data: []
+                data: ["随笔","学习","感想"]
             }
         ],
         yAxis: [
@@ -863,7 +883,7 @@ $('.bg-cover').css('background-image', 'url(/medias/banner/' + new Date().getDay
                 type: 'bar',
                 color: ['#82d3f4'],
                 barWidth : 18,
-                data: [],
+                data: [1,1,1],
                 markPoint: {
                     symbolSize: 45,
                     data: [{
@@ -1005,6 +1025,24 @@ $('.bg-cover').css('background-image', 'url(/medias/banner/' + new Date().getDay
         <div class="sub-title center-align"><i class="fa fa-book"></i>&nbsp;&nbsp;其他技能</div>
         <div class="tag-chips center-align">
             
+            
+            <a href="/tags/随笔/" target="_blank">
+                <span class="chip center-align waves-effect waves-light chip-default">随笔</span>
+            </a>
+            
+            
+            
+            <a href="/tags/学习/" target="_blank">
+                <span class="chip center-align waves-effect waves-light chip-default">学习</span>
+            </a>
+            
+            
+            
+            <a href="/tags/感想/" target="_blank">
+                <span class="chip center-align waves-effect waves-light chip-default">感想</span>
+            </a>
+            
+            
         </div>
     </div>
      
@@ -1064,7 +1102,7 @@ $('.bg-cover').css('background-image', 'url(/medias/banner/' + new Date().getDay
 
             
                 &nbsp; | &nbsp;字数统计:&nbsp;
-                <span class="white-color">3</span> 字
+                <span class="white-color">254</span> 字
             
 
             
@@ -1218,20 +1256,8 @@ $(function () {
 
         <!-- 鼠标点击烟花爆炸效果  LQL GoogleSerach add 2019.09.09 -->
         
-            <canvas class="fireworks" style="position: fixed; left: 0; top: 0; z-index: 1; pointer-events: none;"></canvas>
-            <script type="text/javascript" src="//cdn.bootcss.com/animejs/2.2.0/anime.min.js"></script>
-            <script type="text/javascript" src="/js/fireworks.js"></script>
-        
 
         <!-- 背景雪花飘落特效LQL GoogleSerach add 2019.09.10 -->
-        
-            <script type="text/javascript">
-            //只在桌面版网页启用特效
-            var windowWidth = $(window).width();
-            if (windowWidth > 768) {
-                document.write('<script type="text/javascript" src="/js/sakura.js"><\/script>');
-            }
-            </script>
         
 
         <!-- 鼠标点击文字特效 LQL GoogleSerach add 2019.09.10-->
@@ -1240,13 +1266,6 @@ $(function () {
         
 
         <!-- 背景雪花飘落特效 LQL GoogleSerach add 2019.09.10 -->
-        
-            <script type="text/javascript">
-                var windowWidth = $(window).width();
-                if (windowWidth > 768) {
-                    document.write('<script type="text/javascript" src="/js/xuehuapiaoluo.js"><\/script>');
-                }
-            </script>
         
 
         <!-- 在线聊天工具  LQL GoogleSerach add 2019.09.11 -->
@@ -1286,25 +1305,11 @@ $(function () {
 
         <!-- 背景 canvas-nest  LQL shw 2018  add 2019.09.15-->
         
-            <script type="text/javascript">
-            var windowWidth = $(window).width();
-            if (windowWidth > 992) {
-                document.write('<script type="text/javascript" color="0,0,255" pointColor="0,0,255" opacity= "0.8" zIndex="--1" count="150"src="/libs/background/canvas-nest.js"><\/script>');
-            }
-            </script>
-        
 
         <!-- 背景静止彩带  LQL shw 2018  add 2019.09.15-->
         
 
         <!-- 背景动态彩带 LQL shw 2018  add 2019.09.15-->
-        
-            <script type="text/javascript">
-            var windowWidth = $(window).width();
-            if (windowWidth > 992) {
-                document.write('<script type="text/javascript" src="/libs/background/ribbon-dynamic.js"><\/script>');
-            }
-            </script>
         
 
     <script src="/live2dw/lib/L2Dwidget.min.js?094cbace49a39548bed64abff5988b05"></script><script>L2Dwidget.init({"pluginRootPath":"live2dw/","pluginJsPath":"lib/","pluginModelPath":"assets/","tagMode":false,"log":false,"model":{"jsonPath":"/live2dw/assets/wanko.model.json"},"display":{"position":"left","width":150,"height":200},"mobile":{"show":false},"react":{"opacity":0.7}});</script><script>!function(e){var r=Array.prototype.slice.call(document.querySelectorAll("img[data-original]"));function t(){for(var c=0;c<r.length;c++)t=r[c],void 0,0<=(n=t.getBoundingClientRect()).top&&0<=n.left&&n.top<=(e.innerHeight||document.documentElement.clientHeight)&&function(){var t,n,e,i,o=r[c];t=o,n=function(){r=r.filter(function(t){return o!==t})},e=new Image,i=t.getAttribute("data-original"),e.onload=function(){t.src=i,n&&n()},e.src=i}();var t,n}t(),e.addEventListener("scroll",function(){!function(t,n){clearTimeout(t.tId),t.tId=setTimeout(function(){t.call(n)},500)}(t,e)})}(this);</script></body>

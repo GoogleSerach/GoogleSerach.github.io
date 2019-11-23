@@ -436,7 +436,8 @@ featureImages:
   # pay（付费转载 pay for reprinting）
 
 reprint:
-  enable: fasle # whether enable reprint section 是否启用“转载规则限定模块”
+  # whether enable reprint section 是否启用“转载规则限定模块”
+  enable: false 
   default: cc_by
 
 # Enable baidu push so that the blog will push the url to baidu automatically which is very helpful for SEO
@@ -445,26 +446,26 @@ baidu_push: true
 # LQL GoogleSerach add 2019.09.09
 # 页面樱花飘落动效
 sakura:
-  enable: true
+  enable: false
 
 # 鼠标点击烟花爆炸动效
 fireworks:
-  enable: true
+  enable: false
 
 # LQL GoogleSerach add 2019.09.10
 # 天气控件 Weather Widget
 weather:
-  enable: true
+  enable: false
 
 # LQL GoogleSerach add 2019.09.10
 # 鼠标点击文字特效 
 wenzi:
-  enable: true
+  enable: false
 
 # LQL GoogleSerach add 2019.09.10
 # 背景雪花飘落特效
 xuehuapiaoluo:
-  enable: true
+  enable: false
 
 # Tidio online contact 
 tidio:
@@ -474,7 +475,7 @@ tidio:
 # LQL GoogleSerach add 2019.09.15
 #背景canvas-nest
 canvas_nest:
-  enable: true
+  enable: false
   color: 0,0,255 #线条颜色, 默认: '0,0,0' ；三个数字分别为(R,G,B)，注意用,分割
   pointColor: 0,0,255 #交点颜色, 默认: '0,0,0' ；三个数字分别为(R,G,B)，注意用,分割
   opacity: 0.8 # 线条透明度（0~1）, 默认: 0.5
@@ -491,7 +492,7 @@ ribbon:
 
 #背景动态彩带
 ribbon_dynamic:
-  enable: true 
+  enable: false 
 
 
 
