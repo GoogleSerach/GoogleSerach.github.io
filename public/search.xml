@@ -5,10 +5,10 @@
     
     <entry>
       <title>记一次面试总结</title>
-      <link href="/2019/11/23/gan-xiang/"/>
-      <url>/2019/11/23/gan-xiang/</url>
+      <link href="/2019/11/23/ji-yi-ci-mian-shi-zong-jie/"/>
+      <url>/2019/11/23/ji-yi-ci-mian-shi-zong-jie/</url>
       
-        <content type="html"><![CDATA[<p>前段时间面试了一家大厂，面试官问很关于操作系统以及网络原理之类理论知识。</p><p><strong>面试官在你正确回答问题后，接下来则是这样一个套路：</strong></p><div id="flowchart-0" class="flow-chart"></div>这样的套路不正是我们学习新知识应该遵循的过程吗？但是并不是每个人每个知识点都应用了这样的套路，我也不例外。自然有些问题回答的不是特别完美。<p><strong>总结：学习新知识点要时刻谨记该套路，学习过程中反复自问。</strong><script src="https://cdnjs.cloudflare.com/ajax/libs/raphael/2.2.7/raphael.min.js"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/flowchart/1.6.5/flowchart.min.js"></script><textarea id="flowchart-0-code" style="display: none">q1=>operation: 为什么会提出这个概念或原理？q2=>operation: 解决了什么样的问题？q3=>operation: 还有其他解决方式吗？q1->q2->q3</textarea><textarea id="flowchart-0-options" style="display: none">{"scale":1,"line-width":2,"line-length":50,"text-margin":10,"font-size":12}</textarea><script>  var code = document.getElementById("flowchart-0-code").value;  var options = JSON.parse(decodeURIComponent(document.getElementById("flowchart-0-options").value));  var diagram = flowchart.parse(code);  diagram.drawSVG("flowchart-0", options);</script></p>]]></content>
+        <content type="html"><![CDATA[<p>前段时间面试了一家大厂，面试官问很多关于操作系统以及网络原理之类理论知识。</p><p><strong>面试官在你正确回答问题后，接下来则是这样一个套路：</strong></p><div id="flowchart-0" class="flow-chart"></div>这样的套路不正是我们学习新知识应该遵循的过程吗？但是并不是每个人每个知识点都应用了这样的套路，我也不例外。自然有些问题回答的不是特别完美。<p><strong>总结：学习新知识点要时刻谨记该套路，学习过程中反复自问。</strong><script src="https://cdnjs.cloudflare.com/ajax/libs/raphael/2.2.7/raphael.min.js"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/flowchart/1.6.5/flowchart.min.js"></script><textarea id="flowchart-0-code" style="display: none">q1=>operation: 为什么会提出这个概念或原理？q2=>operation: 解决了什么样的问题？q3=>operation: 还有其他解决方式吗？q1->q2->q3</textarea><textarea id="flowchart-0-options" style="display: none">{"scale":1,"line-width":2,"line-length":50,"text-margin":10,"font-size":12}</textarea><script>  var code = document.getElementById("flowchart-0-code").value;  var options = JSON.parse(decodeURIComponent(document.getElementById("flowchart-0-options").value));  var diagram = flowchart.parse(code);  diagram.drawSVG("flowchart-0", options);</script></p>]]></content>
       
       
       <categories>

@@ -213,24 +213,36 @@ myProjects:
 mySkills:
   enable: true
   data:
-    算法:
+    计算机理论:
       background: 'linear-gradient(to right, #FF0066 0%, #FF00CC 100%)'
       percent: 80%
-    C++:
+    数据结构与算法:
+      background: 'linear-gradient(to right, #FF0066 0%, #FF00CC 100%)'
+      percent: 80%
+    JAVA:
       background: 'linear-gradient(to right, #9900FF 0%, #CC66FF 100%)'
-      percent: 70%
-    Python:
-      background: 'linear-gradient(to right, #2196F3 0%, #42A5F5 100%)'
-      percent: 95%
-    Java:
-      background: 'linear-gradient(to right, #00BCD4 0%, #80DEEA 100%)'
-      percent: 50%
-    SQL:
+      percent: 80%
+    JVM:
+      background: 'linear-gradient(to right, #9900FF 0%, #CC66FF 100%)'
+      percent: 60%
+    JAVA并发编程:
+      background: 'linear-gradient(to right, #9900FF 0%, #CC66FF 100%)'
+      percent: 80%
+    SpringBoot:
+      background: 'linear-gradient(to right, #9900FF 0%, #CC66FF 100%)'
+      percent: 60%
+    MSQL:
       background: 'linear-gradient(to right, #4CAF50 0%, #81C784 100%)'
-      percent: 50%
-    HTML:
+      percent: 80%
+    Redis:
+      background: 'linear-gradient(to right, #4CAF50 0%, #81C784 100%)'
+      percent: 80%
+    MongoDB:
+      background: 'linear-gradient(to right, #4CAF50 0%, #81C784 100%)'
+      percent: 80%
+    Linux:
       background: 'linear-gradient(to right, #FFEB3B 0%, #FFF176 100%)'
-      percent: 70%
+      percent: 60%
 
 # config gallery of my photos in about page.
 # If you don't want to display this `Gallery` content, you can deactivate or delete this configuration.

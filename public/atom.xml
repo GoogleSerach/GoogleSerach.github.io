@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://GoogleSerach.github.io/"/>
-  <updated>2019-11-23T09:01:59.569Z</updated>
+  <updated>2019-11-23T09:26:24.550Z</updated>
   <id>https://GoogleSerach.github.io/</id>
   
   <author>
@@ -18,10 +18,10 @@
   
   <entry>
     <title>记一次面试总结</title>
-    <link href="https://GoogleSerach.github.io/2019/11/23/gan-xiang/"/>
-    <id>https://GoogleSerach.github.io/2019/11/23/gan-xiang/</id>
+    <link href="https://GoogleSerach.github.io/2019/11/23/ji-yi-ci-mian-shi-zong-jie/"/>
+    <id>https://GoogleSerach.github.io/2019/11/23/ji-yi-ci-mian-shi-zong-jie/</id>
     <published>2019-11-23T08:16:00.000Z</published>
-    <updated>2019-11-23T09:01:59.569Z</updated>
+    <updated>2019-11-23T09:26:24.550Z</updated>
     
     <summary type="html">
     
@@ -29,7 +29,7 @@
       
         
         
-          &lt;p&gt;前段时间面试了一家大厂，面试官问很关于操作系统以及网络原理之类理论知识。&lt;/p&gt;
+          &lt;p&gt;前段时间面试了一家大厂，面试官问很多关于操作系统以及网络原理之类理论知识。&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;面试官在你正确回答问题后，接下来则是这样一个套路：&lt;/strong&gt;&lt;/p&gt;
 &lt;div id=&quot;flowchart-0&quot;
         
