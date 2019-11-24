@@ -8,11 +8,12 @@ categories:
   - JAVA
   - 并发编程 
 
-date: 2019-11-23 19:53:00
+date: 2019-11-23 20:53:00
 
 ---
 
-## test1
-## test2
-## test3
-## test4
+## SynchronousQueue是什么？
+## SynchronousQueue有什么使用场景？
+## 为什么要发明SynchronousQueue？
+## SynchronousQueue是如何实现的？
+## SynchronousQueue使用注意事项？
