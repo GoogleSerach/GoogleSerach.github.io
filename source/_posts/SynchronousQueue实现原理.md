@@ -1,6 +1,3 @@
-SynchronousQueue实现原理
----
-
 title: SynchronousQueue实现原理
 author: LQL
 tags: 
