@@ -163,7 +163,7 @@ live2d:
 githubEmojis:
   enable: false
   className: github-emoji
-  inject: false
+  inject: true
   styles:
     # font-size: 5em
     # font-weight: bold
