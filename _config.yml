@@ -114,7 +114,8 @@ theme: matery
 deploy:
 - type: git
   repo:
-    github:  git@github.com:GoogleSerach/GoogleSerach.github.io.git
+    # github:  git@github.com:GoogleSerach/GoogleSerach.github.io.git
+    github:  https://gh_token@github.com/GoogleSerach/GoogleSerach.github.io.git
     # coding: https://git.coding.net/hwsun/hwsun.git
     # gitee: https://gitee.com/hwsun/hwsun.git
   branch: master
