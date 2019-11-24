@@ -1,4 +1,4 @@
-title: Builder模式与线程安全
+title: Builder模式与JavaBean模式的比较
 author: LQL
 tags:
   - JAVA
