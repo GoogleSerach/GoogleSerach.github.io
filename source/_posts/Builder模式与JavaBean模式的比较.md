@@ -5,7 +5,7 @@ tags:
   - Effective Java
 categories:
   - JAVA
-date: 2019-11-23 19:53:00
+date: 2019-06-05 19:53:00
 ---
 >**《Effective Java》之条目2：当构造参数过多时使用Builder模式**
 
