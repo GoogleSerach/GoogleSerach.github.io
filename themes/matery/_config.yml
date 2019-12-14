@@ -231,7 +231,7 @@ mySkills:
     SpringBoot:
       background: 'linear-gradient(to right, #9900FF 0%, #CC66FF 100%)'
       percent: 60%
-    MSQL:
+    MySQL:
       background: 'linear-gradient(to right, #4CAF50 0%, #81C784 100%)'
       percent: 80%
     Redis:
